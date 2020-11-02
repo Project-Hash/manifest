@@ -844,5 +844,4 @@
   <include name="remove.xml" />
   <include name="los.xml" />
   <include name="owl.xml" />
-  
 </manifest>

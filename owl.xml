@@ -58,4 +58,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="owl" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="owl" />
 
+  <!--Our device repos-->
+  <include name="device.xml" />
+
 </manifest>
