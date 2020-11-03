@@ -58,6 +58,14 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="owl" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="owl" />
 
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="owl" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="owl" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="owl" />  
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="owl" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="owl"  />
+  <project path="vendor/aosp" name="vendor_aosp" remote="owl" />
+
   <!--Our device repos-->
   <include name="device.xml" />
 
