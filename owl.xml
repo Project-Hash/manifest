@@ -22,6 +22,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="owl" />
 
   <!-- General repos -->
+  <project path="art" name="art" remote="owl" />  
   <project path="bionic" name="bionic" remote="owl" />
   <project path="bootable/recovery" name="bootable_recovery" remote="owl" />
   <project path="build/make" name="build" remote="owl" >
@@ -58,12 +59,16 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="owl" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="owl" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-aosp" name="prebuilts_tools" clone-depth="1" remote="owl" />
+
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="owl" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="owl" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="owl" />  
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="owl" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="owl"  />
+  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="owl" />
   <project path="vendor/aosp" name="vendor_aosp" remote="owl" />
 
   <!--Our device repos-->
